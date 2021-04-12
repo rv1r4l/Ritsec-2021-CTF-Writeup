@@ -9,7 +9,7 @@ Challenge 1 (BIN/REV) "snek"
 This one's pretty simple, when clicking on the challenge, it gives you something that seems like
 a binary. The first thing that comes up to mind is to open up radare and start disassembling 
 everything until you realize there's something slightly off. There isn't an "ELF" tag and there 
-seems to be "snek.py" when examning the file. Knowing this, it becomes obvious that "snek" is 
+seems to be "snek.py" when examining the file. Knowing this, it becomes obvious that "snek" is 
 actually bytcode for snek.py. For more information on bytecode, https://opensource.com/article/18/4/introduction-python-bytecode.
 Since bytecode can be converted from a .pyc back into a .py file, I used a tool called uncompyle6 to do the job.
 ```
