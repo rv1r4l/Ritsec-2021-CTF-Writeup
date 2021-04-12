@@ -6,7 +6,7 @@ Challenge 1 (BIN/REV) "snek"
 ![Image of snek](https://github.com/rv1ral/Ritsec-2021-CTF-Writeup/blob/main/Screenshot%20from%202021-04-11%2020-24-48.png)
 
 
-This one's pretty simple, when clicking on the challenge, it gives you something that seems like
+This one's pretty simple, when viewing the challenge, it gives you something that seems like
 a binary. The first thing that comes up to mind is to open up radare and start disassembling 
 everything until you realize there's something slightly off. There isn't an "ELF" tag and there 
 seems to be "snek.py" when examining the file. Knowing this, it becomes obvious that "snek" is 
